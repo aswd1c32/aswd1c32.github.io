@@ -1,0 +1,23 @@
+/* some css examples */
+* /* selects every element to be styled */
+{
+  
+}
+
+img /* selects all img elements to be styled */
+{
+  width: 200px; /* sets the width to 200 pixels */
+  height: 200px; /* sets the height to 200 pixels */
+}
+
+.amogus /* selects all elements with the amogus class */
+{
+  font-size: 20px; /* sets the font size to 20 pixels */
+}
+
+#sus /* selects all elements with the sus id */
+{
+  position: absolute; /* sets the positioning system */
+  top: 30%; /* puts the top edge of the element at 30% of the way down the parent, if position was relative it would be moved down 30% of the parent element's height from the position it would be if there was no style at all */
+  right: 69.42%; /* does the same thing, but with the right */
+}
