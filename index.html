@@ -65,15 +65,10 @@
         <td> </td>
       </tr>
     </table>
-    <button onclick="myFunction()">YOOO CLICK THIS</button>
-
-<script>
-function myFunction() {
-  location.replace("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
-}
-</script>
+    <button onclick="myFunction();">YOOO CLICK THIS</button>
     <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="bruh.jpg" id="me" alt="a picture of me"/></a>
-    <p style="color:green"> a picture of me (the main creator)</p>
+    <p style="color:green"> a picture of me (the main creator)</p> <!-- Inline styles? Not a good practice. 
+                                                                        Instead, use an external stylesheet. -->
     <img src="IMG_20220817_145855172.jpg" id="coconutmall" alt="kitty named after mariokart track, coconut mall." />
     <p style="color:yellow">kitty named after mariokart track, coconut mall.</p>
     <img src="faaaaaaaaaaaaaaa.jpg" id="cocofani" alt="coco, she hates being picked up and she scratches you if you pick her up." />
@@ -81,5 +76,12 @@ function myFunction() {
     <img src="IMG_20220817_145753592.jpg" id="buddy" alt="Buddy is a cute dog, he bit me on the face and now I have a scar on my cheek" />
     <p style="color:blue"> Buddy is a cute dog, he bit me on the face and now I have a scar on my cheek</>
     <h1>Thank you for visiting my website!:)</h1>
+    <script>
+      function myFunction() { // I suggest naming functions something that describes what it does.
+        location.replace("https://www.youtu.be/dQw4w9WgXcQ"); /* Inline JavaScript? Not a good practice.
+                                                                 Instead, use a src property to link to a separate JavaScript file.
+                                                                 Ex. <script src="file.js"><(slash)script>                         */
+      }
+    </script>
   </body>
 </html>
