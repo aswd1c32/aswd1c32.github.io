@@ -45,3 +45,10 @@ img
 {
  color: green; 
 }
+
+#buddy
+{
+  height: 25%
+  position: relative;
+  left: 40%;
+}
