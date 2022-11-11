@@ -49,6 +49,7 @@ img
 #buddy
 {
   height: 25%;
-  position: relative;
-  right: 40%;
+  position: absolute;
+  bottom: 75%
+  right: 40%
 }
