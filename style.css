@@ -1,48 +1,19 @@
-/* this is your site, i am just giving you this blank file
-nevermind */
 img
 {
   width: 200px;
   display: block;
 }
-/*
-#id
+
+p,
+label,
+h1,
+td,
+li
 {
-  stuff
+  color: white;
 }
 
-.class
+body
 {
-  stuff
+  background-color: #000;
 }
-*/
-.red
-{
- color: red; 
-}
-
-.yellow
-{
- color: yellow;
-}
-
-.blue
-{
- color: blue;
-}
-
-.tomato
-{
-  color: tomato;
-}
-
-.aaaa
-{
- background-color: #336699; 
-}
-
-.green
-{
- color: green; 
-}
-
