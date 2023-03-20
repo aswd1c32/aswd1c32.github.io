@@ -4,6 +4,13 @@ img
   display: block;
 }
 
+h1,
+li,
+p
+{
+  text-align: center;
+}
+
 p,
 label,
 h1,
