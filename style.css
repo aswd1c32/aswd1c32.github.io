@@ -5,7 +5,8 @@ img
 }
 
 h1,
-li
+li,
+p.center
 {
   text-align: center;
 }
