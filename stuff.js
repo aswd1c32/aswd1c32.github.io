@@ -26,7 +26,6 @@ function translate(lang)
     case "es":
       document.body.parentElement.lang = "es";
       history.replaceState(null, null, onLocal ? "./index.html" : "./");
-      document.getElementsByTagName("label")[0].innerHTML = "Nombre (4 a 8 car&#xE1;cteres y tambi&#xE9;n no importante):";
       document.getElementById("website-desc").innerHTML = 
       "Hola, este sitio web es para un proyecto escuela, pero tambi&#xE9;n hago esto por diversi&#xF3;n.\
       Me interesa programar y tengo la ayuda de mi buen amigo,\
@@ -78,7 +77,6 @@ function translate(lang)
     case "fr":
       document.body.parentElement.lang = "fr";
       history.replaceState(null, null, onLocal ? "./index.html" : "./");
-      document.getElementsByTagName("label")[0].innerHTML = "Nom (4 &#xE0; 8 caract&#xE8;res et aussi pas important)&nbsp;:";
       document.getElementById("website-desc").innerHTML = 
       "Bonjour, ce site web est pour un school projet, mais je aussi fais &#xE7;a pour divertissement.\
       M'int&#xE9;resse coder et j'ai l'aide de mon bon ami,\
