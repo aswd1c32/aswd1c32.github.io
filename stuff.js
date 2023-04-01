@@ -1,7 +1,7 @@
 function rickroll() {
   location.replace("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
 }
-const onLocal = false;
+const onLocal = location.origin == "file://" || location.origin == null;
 // à -> U+00E0
 // á -> U+00E1
 // ç -> U+00E7
@@ -27,7 +27,7 @@ function translate(lang)
       document.body.parentElement.lang = "es";
       history.replaceState(null, null, onLocal ? "./index.html" : "./");
       document.getElementById("website-desc").innerHTML = 
-      "Hola, este sitio web es para un proyecto escuela, pero tambi&#xE9;n hago esto por diversi&#xF3;n.\
+      "Hola, este sitio web es para un proyecto escolar, pero tambi&#xE9;n hago esto por diversi&#xF3;n.\
       Me interesa programar y tengo la ayuda de mi buen amigo,\
       jbxghexkojdv en GitHub, y tambi&#xE9;n lo conozco en vida real.";
       document.title = "El sitio web de Aswd1c32";
@@ -71,8 +71,10 @@ function translate(lang)
       document.getElementById("buddy-desc").innerHTML = "Buddy, un perro precioso. Me mordi&#xF3; en la cara, y ahora tengo un cicatriz en la mejilla.";
       document.getElementById("pangolin-desc").innerHTML = "Los pangol&#xED;nes son preciosos, y Amogus.";
       document.getElementById("god-desc").innerHTML = "Este es George Washington Carver, es mi Dios y salvador porque hizo cosas con cacahuates, y amo los cacahuates.";
-      document.getElementById("thanks-for-visiting").innerHTML = "&#xA1;Gracias por visitar mi sitio web! preferir&#xED;a alg&#xFA;n feedback sobre ello, as&#xED; que puedo hacerlo mejor. :)";
+      document.getElementById("thanks-for-visiting").innerHTML = "&#xA1;Gracias por visitar mi sitio web! Preferir&#xED;a alg&#xFA;n feedback sobre ello, as&#xED; que puedo hacerlo mejor. :)";
       document.getElementById("credits").innerHTML = "Todo por Ava Myers, excepto: <br />Traducciones por Benjamin Harris (jbxghexkojdv)";
+      document.getElementById("joe-hawley-ripoff").innerHTML = "Me veo como Joe Hawley";
+      document.getElementById("tallyhall-desc").innerHTML = "Esto es Tally Hall, un grupo del medio de la d&#xE9;cada de 2000 y el principio de la d&#xE9;cada de 2010, pero se separaron en o 2011 o 2012";
       break;
     case "fr":
       document.body.parentElement.lang = "fr";
@@ -122,6 +124,8 @@ function translate(lang)
       document.getElementById("god-desc").innerHTML = "C'est George Washington Carver, il est mon Dieu et sauveur parce qu'il a fait choses avec des cacahu&#xE8;tes, et j'aime les cacahu&#xE8;tes.";
       document.getElementById("thanks-for-visiting").innerHTML = "Merci pour visiter mon site web! Je pr&#xE9;f&#xE9;rerais des r&#xE9;actions sur &#xE7;a, alors je peux le faire meilleur. :)";
       document.getElementById("credits").innerHTML = "Tout par Ava Myers, sauf: <br />Tracuctions par Benjamin Harris (jbxghexkojdv)";
+      document.getElementById("joe-hawley-ripoff").innerHTML = "J'apparais comme Joe Hawley";
+      document.getElementById("tallyhall-desc").innerHTML = "C'est Tally Hall, un groupe des ann&#xE9;es mi-2000 et les ann&#xE9;es 2010 anciens, mais ils s'ont s&#xE9;par&#xE9;s en ou 2011 ou 2012";
       break;
   }
 }
